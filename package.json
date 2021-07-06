@@ -14,7 +14,8 @@
     "lint:prettier": "prettier --check ./",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "npm run lint:eslint -- --fix",
-    "fix:prettier": "npm run lint:prettier -- --write"
+    "fix:prettier": "npm run lint:prettier -- --write",
+    "test": "jest --config jest.config.json --coverage"
   },
   "keywords": [
     "eslint",
