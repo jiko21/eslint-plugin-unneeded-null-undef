@@ -10,8 +10,8 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "lint": "run-p -l -c --aggregate-output lint:*",
-    "lint:eslint": "eslint ./src/**/*.ts",
-    "lint:prettier": "prettier --check ./src/**/*.ts",
+    "lint:eslint": "eslint ./",
+    "lint:prettier": "prettier --check ./",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "fix:prettier": "npm run lint:prettier -- --write"
