@@ -1,0 +1,24 @@
+{
+  "verbose": true,
+  "preset": "ts-jest",
+  "coverageDirectory": "coverage",
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@/(.+)": "<rootDir>/src/$1"
+  },
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "tsconfig.json"
+    }
+  },
+  "testMatch": [
+    "**/tests/**/*.spec.ts"
+  ],
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}
