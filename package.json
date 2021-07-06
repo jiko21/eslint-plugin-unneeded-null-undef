@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-unneeded-null-undef",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "eslint plugin to invalidate unneeded null and undefined",
   "main": "dist/index.js",
   "files": [
